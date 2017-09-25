@@ -1,0 +1,56 @@
+#header-nav {
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-bottom: 25px;
+}
+.navbar-brand h1 {
+	font-family: 'Lora', serif;
+	color: #33E3FF;
+	text-transform: capitalize;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar { /* Colour of the collapsed button */
+	border: 1px solid #33E3FF;
+}
+#nav-list a {
+	color: #951C49;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+
+#nav-list a span {
+	font-size: 1.8em;
+}
+
+h2 {
+	text-align: center
+}
+
+div .center{
+	margin: 0 auto 15px;
+	
+	background-color: blue;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+@media (max-width: 767px) {
+	div .center{
+		margin: 0 auto 15px;
+		float:none;
+	}
+}
+
