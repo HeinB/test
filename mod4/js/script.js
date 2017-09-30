@@ -1,7 +1,7 @@
 $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
   // Same as document.querySelector("#navbarToggle").addEventListener("blur",...
-  $("#navbar-toggle").blur(function (event) {
+  $("#navbarToggle").blur(function (event) {
     var screenWidth = window.innerWidth;
     if (screenWidth < 768) {
       $("#collapsable-nav").collapse('hide');
@@ -14,7 +14,7 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
   // which is set up above will not be called.
   // Refer to issue #28 in the repo.
   // Solution: force focus on the element that the click event fired on
-  $("#navbar-toggle").click(function (event) {
+  $("#navbarToggle").click(function (event) {
     $(event.target).focus();
   });
 });
